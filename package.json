@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s0jp7h290n",
+  "description": "https://v2.scrimba.com/s0jp7h290n",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}

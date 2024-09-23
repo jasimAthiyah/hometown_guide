@@ -1,0 +1,81 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+img {
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.hero {
+  background-image: url(images/harbour-Hong-Kong.webp);
+  background-size: cover;
+  background-position: 5%;
+  color: #f1faee;
+  padding: 100px 10px;
+}
+
+h1 {
+  text-shadow: 0px 2px 2px black;
+}
+
+h2 {
+  text-shadow: 0px 0px 1px black;
+}
+
+.activties {
+  background-color: #f1faee;
+  padding: 30px 20px;
+}
+
+.activties h3 {
+  margin: 0 0 20px 0;
+}
+
+.activites-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activties-title {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.activites-card {
+  /* border: 1px solid red; */
+  width: 100%;
+  margin: 0px 10px;
+  padding: 0px 10px;
+}
+
+.guide {
+  background-color: #6ec8ae;
+  display: flex;
+  width: 40%;
+  margin: 30px auto;
+  padding: 20px 10px;
+  border-radius: 5px;
+  border-bottom: 5px solid #658d82;
+}
+
+.guide img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.guide-desc{
+    padding: 0 20px;
+}
